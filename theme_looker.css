@@ -42,7 +42,7 @@
 }
 
 .hover {
-  background-color: #ffffbb;
+  background-color: #d6ffbb; /*#FFFFbb */
 }
 
 .reportTable {
@@ -65,7 +65,7 @@ th.headerCell {
 }
 
 .headerCell.pivot {
-  background-color: #ccd8e4;
+  background-color: #7a9b06;
   border-right: 1px solid #BDC3C7; 
 }
 
