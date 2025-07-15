@@ -55,7 +55,7 @@
 
 th.headerCell {
   background-color: #00308c;
-  color: #fff;
+  color: #ffffff;
   padding: 5px;
   border-bottom: 1px solid #BDC3C7;
 }
@@ -68,13 +68,13 @@ th.headerCell {
 .headerCell.pivot {
   background-color: #00308c; /* #ccd8e4 */
   border-right: 1px solid #BDC3C7;
-  color: #fff;
+  color: #ffffff;
 }
 
 .headerCell.measure {
   background-color: #7a9b06;
   border-left: 1px solid #BDC3C7;
-  color: #FFF;
+  color: #ffffff;
 }
 
 .headerCell.measure.calculation {
