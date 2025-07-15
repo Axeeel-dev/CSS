@@ -65,12 +65,12 @@ th.headerCell {
 }
 
 .headerCell.pivot {
-  background-color: #7a9b06;
+  background-color: #ccd8e4;
   border-right: 1px solid #BDC3C7; 
 }
 
 .headerCell.measure {
-  background-color: #e4d0bd;
+  background-color: #7a9b06;
   border-left: 1px solid #BDC3C7; 
 }
 
