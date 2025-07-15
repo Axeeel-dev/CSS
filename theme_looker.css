@@ -71,7 +71,8 @@ th.headerCell {
 
 .headerCell.measure {
   background-color: #7a9b06;
-  border-left: 1px solid #BDC3C7; 
+  border-left: 1px solid #BDC3C7;
+  color: #FFF;
 }
 
 .headerCell.measure.calculation {
