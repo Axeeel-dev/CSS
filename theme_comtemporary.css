@@ -115,6 +115,7 @@ table.reportTable td {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
   background-color: #7a9b06;
+  color: white;
 }
 
 .total.transposed {
