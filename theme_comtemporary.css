@@ -68,7 +68,8 @@ table.reportTable td {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
-  background-color: #00308c; /* --------- */
+  background-color: #00308c; /* ----azul----- */
+  color: white;
 }
 
 .indexCell.transposed {
