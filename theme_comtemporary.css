@@ -1,3 +1,21 @@
+:root {
+  /* Marca */
+  --color-azul: #00308c;          /* encabezados */
+  --color-verde: #7a9b06;         /* totales */
+
+  /* Neutros */
+  --color-blanco: #ffffff;
+  --color-negro: #000000;
+  --color-borde: #cccccc;
+  --color-gris-claro: #d3d3d3;    /* subtotales */
+  --color-gris-oscuro: darkgray;  /* estimados */
+
+  /* Estados */
+  --color-hover: #d6ffbb;
+  --color-negativo: red;
+  --color-sombra: rgba(0, 0, 0, 0.4);
+}
+
 @font-face {
   font-family: 'Noto Sans TC';
   src: url('./fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2') format('woff2')
@@ -12,13 +30,13 @@
     width: auto;
     height: auto;
     padding: 5px;
-    background-color: white;
+    background-color: var(--color-blanco);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 4px 4px 10px var(--color-sombra);
+    -moz-box-shadow: 4px 4px 10px var(--color-sombra);
+    box-shadow: 4px 4px 10px var(--color-sombra);
     pointer-events: none;
     font-family: sans-serif;
     font-size: 12px;
@@ -41,35 +59,35 @@
 }
 
 .hover {
-  background-color: #d6ffbb;
+  background-color: var(--color-hover);
 }
 
 .reportTable {
   font-family: Open Sans,Helvetica,Arial,Noto Sans SC,Noto Sans TC,sans-serif;
-  border: 1px solid #CCCCCC; 
+  border: 1px solid var(--color-borde);
   border-collapse: collapse;
   border-spacing: 3px;
 }
 
 table.reportTable th {
-  border: 1px solid #CCCCCC; 
-  border-bottom: 1px solid #000000 !important;
+  border: 1px solid var(--color-borde);
+  border-bottom: 1px solid var(--color-negro) !important;
   padding: 5px;
 }
 
 table.reportTable td {
   vertical-align: super;
   padding: 5px;
-  border: 1px solid #CCCCCC; 
+  border: 1px solid var(--color-borde);
   border-collapse: collapse;
 }
 
 .headerCell {
-  border-bottom: 1px solid #000000 !important;
+  border-bottom: 1px solid var(--color-negro) !important;
   font-weight: bold;
   padding: 5px;
-  background-color: #00308c; /* ----azul----- */
-  color: white;
+  background-color: var(--color-azul);
+  color: var(--color-blanco);
 }
 
 .indexCell.transposed {
@@ -77,7 +95,7 @@ table.reportTable td {
 }
 
 .indexCell.transposed.merged {
-  background-color: #ffffff !important;
+  background-color: var(--color-blanco) !important;
 }
 
 .rowCell {
@@ -94,11 +112,11 @@ table.reportTable td {
 }
 
 .negative {
-  color: red;
+  color: var(--color-negativo);
 }
 
 .estimate {
-  color: darkgray !important;
+  color: var(--color-gris-oscuro) !important;
 }
 
 .singleIndex {
@@ -108,19 +126,19 @@ table.reportTable td {
 .subtotal {
   font-style: italic;
   font-weight: bold;
-  background: #D3D3D3;
+  background: var(--color-gris-claro);
 }
 
 .total {
-  border-top: 2px solid #000000 !important;
+  border-top: 2px solid var(--color-negro) !important;
   font-weight: bold !important;
-  background-color: #7a9b06;
-  color: white;
+  background-color: var(--color-verde);
+  color: var(--color-blanco);
 }
 
 .total.transposed {
   border-top: 0px !important;
-  background: #D3D3D3;
+  background: var(--color-gris-claro);
 }
 
 .rectElem.animated {
